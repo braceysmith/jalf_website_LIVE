@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=900 height=600 style="width: 900px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/jalf_v01_23-06-24.loader.js"></script>
+    <script src="Build/jalf_v02_23-06-24.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -18,9 +18,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/jalf_v01_23-06-24.data.gz",
-        frameworkUrl: "Build/jalf_v01_23-06-24.framework.js.gz",
-        codeUrl: "Build/jalf_v01_23-06-24.wasm.gz",
+        dataUrl: "Build/jalf_v02_23-06-24.data",
+        frameworkUrl: "Build/jalf_v02_23-06-24.framework.js",
+        codeUrl: "Build/jalf_v02_23-06-24.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "PotentialSynergy",
         productName: "webbranch",
